@@ -42,15 +42,16 @@ header {
 }
 
 .nav-links {
-    display: flex;
+  display: flex;
     list-style: none;
-    gap: 25px;
+    gap: 20px; /* Adjust spacing between links */
+    align-items: center;
 }
 
 .nav-links a {
-    color: white;
     text-decoration: none;
-    font-weight: bold;
+    color: #ffffff;
+    font-weight: 500;
 }
 
 .nav-links a:hover {

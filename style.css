@@ -1,4 +1,4 @@
-```css
+
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +7,11 @@
 }
 
 :root {
-    --bg-main: #0b1916;
-    --bg-card: #132e28;
-    --accent: #10b981;
-    --text-primary: #e6f4f1;
-    --text-muted: #82a89e;
+    --bg-main: #0b1916;       /* Deep emerald main background */
+    --bg-card: #132e28;       /* Dark green slate for cards */
+    --accent: #10b981;        /* Vibrant emerald accent */
+    --text-primary: #e6f4f1;  /* Soft off-white main text */
+    --text-muted: #82a89e;    /* Muted sage text for paragraphs */
 }
 
 body {
@@ -113,9 +113,7 @@ header {
     margin-bottom: 30px;
 }
 
-/* =========================
-   BUTTON
-========================= */
+/* Button */
 
 .btn {
     display: inline-block;
@@ -161,16 +159,14 @@ section {
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-
-    /* Increased spacing between circle and text */
-    gap: 120px;
+    justify-content: flex-start;
+    gap: 80px; /* Increased gap to push text further right */
 }
 
 .profile-placeholder {
     width: 250px;
     height: 250px;
-    flex-shrink: 0;
+    flex-shrink: 0; /* Prevents text from squeezing the circle */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,9 +180,7 @@ section {
 
 .about-text {
     flex: 1;
-
-    /* Keeps the paragraph from becoming too wide */
-    max-width: 550px;
+    max-width: 600px;
 }
 
 .about-text h3 {
@@ -377,7 +371,6 @@ footer {
 ========================= */
 
 @media (max-width: 768px) {
-
     .nav-links {
         display: none;
     }
@@ -400,4 +393,3 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-```

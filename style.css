@@ -161,6 +161,9 @@ section {
     justify-content: center;
     gap: 60px;
 }
+.circle-avatar {
+    margin-right: 30px;
+}
 
 .profile-placeholder {
     width: 250px;
